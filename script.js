@@ -17,7 +17,6 @@ checkbox.addEventListener('change', (e) => {
     if (e.target.checked) {
         html.classList.add('dark');
         localStorage.setItem('darkMode', 'true');
-        
     } else {
         // If the checkbox is not checked, remove the dark class and remove the dark mode preference from local storage
         html.classList.remove('dark');
